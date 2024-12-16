@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Welcome To Votopia!</h1>
+        <p>This is a Polling Web Application</p>
+        <a class="btn btn-dark" href="{% url 'votes:index' %}">
+            View Available Polls
+        </a>
+    </div>
+</div>
+
+{% endblock %}
